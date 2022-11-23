@@ -1,0 +1,68 @@
+<!--<nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo">Logo</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="sass.html">Nosotros</a></li>
+        <li><a href="badges.html">Servicios</a></li>
+        <li><a href="collapsible.html">Contactenos</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="sass.html">Nosotros</a></li>
+    <li><a href="badges.html">Servicios</a></li>
+    <li><a href="collapsible.html">Contactenos</a></li>
+    <li><a href="mobile.html">Mobile</a></li>
+  </ul>
+-->
+<nav class="fix">
+  <div class="nav-wrapper">
+    <!--<a href="#!" class="brand-logo">Logo</a>
+    <img class="hamburguers" src="./assets/images/White and Blue Pet House Logo Design.png" alt="">
+    <span><a routerLink="/inicio" class="brand-logo"> Inicio</a><img class="hamburguers" width = " 40" height ="40" src="./assets/images/White and Blue Pet House Logo Design.png" alt=""></span>-->
+    <a routerLink="/inicio" class="brand-logo"> Inicio</a>
+    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    <ul class="right hide-on-med-and-down">
+      <li><a href="inicio">Inicio</a></li>
+      <li><a href="#servicio">Nosotros</a></li>
+      <li><a href="#galeria">Planes</a></li>
+      <li><a href="#expertos">Sedes</a></li>
+      <!--<li><a href="registro.html">Registro</a></li>-->
+  
+      <li *ngIf="seInicioSesion"><a routerLink="/administracion/buscar-persona">Personas</a></li>
+      <li *ngIf="seInicioSesion"><a routerLink="/administracion/listar-productos">Productos</a></li>
+      <li *ngIf="seInicioSesion"><a routerLink="/seguridad/cambiar-clave">Cambiar Clave</a></li>
+      <li *ngIf="seInicioSesion"><a routerLink="/seguridad/cerrarSesion">Cerrar Sesion</a></li>
+      <li *ngIf="!seInicioSesion"><a routerLink="/seguridad/identificacion">Login</a></li>
+      <!-- <li><a href="administrador.html">Administrador</a></li>-->
+    </ul>
+  </div>
+</nav>
+<ul class="sidenav" id="mobile-demo">
+  <li *ngIf="seInicioSesion"><a routerLink="/administracion/buscar-persona">Personas</a></li>
+  <li *ngIf="seInicioSesion"><a routerLink="/administracion/listar-productos">Productos</a></li>
+  <li *ngIf="seInicioSesion"><a routerLink="/seguridad/cambiar-clave">Cambiar Clave</a></li>
+  <li *ngIf="seInicioSesion"><a routerLink="/seguridad/cerrarSesion">Cerrar Sesion</a></li>
+  <li *ngIf="!seInicioSesion"><a routerLink="/seguridad/identificacion">Login</a></li>
+<header class="header" id="inicio">
+   <!-- <img class="hamburguer" src="./assets/images/White and Blue Pet House Logo Design.png" alt="">
+    <nav class="menu-navegacion">
+            <a href="#inicio">Inicio</a>
+            <a href="#servicio">Nosotros</a>
+            <a href="#galeria">Planes</a>
+            <a href="#expertos">Sedes</a>
+            <a href="registro.html">Registro</a>
+            <a href="#login">Login</a>
+            <a href="administrador.html">Administrador </a>
+            <a href="#footer">Contacto</a>
+    </nav>-->
+    <div class="contenedor head">
+        <h1 class="titulo">MASCOTA FELIZ</h1>
+        <p class="copy"> Sabemos que tu mascota es parte fundamental de tu familia y de la nuestra también.</p>
+    </div>
+    
+</header>
+

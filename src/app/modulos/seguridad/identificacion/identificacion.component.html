@@ -1,0 +1,21 @@
+<div class="logins" id="logins">
+  <section class="Login contenedor" id="login">
+      <h2 class="subtitulo">Log in</h2>
+      
+      <form [formGroup]="fgValidador" role="form" (ngSubmit)="IdentificarUsuario()">
+          <div class="form-group">
+            <label for="email">Correo electrónico:</label>
+            <input formControlName="usuario" type="email" class="form-control" id="email">
+          </div>
+          <div class="form-group">
+            <label for="pwd">Contraseña:</label>
+            <input formControlName="clave" type="password" class="form-control" id="pwd">
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox"> Remember me</label>
+          </div>                        
+          <button [disabled]="!fgValidador.valid"  type="submit" class="btn btn-default">Submit</button>
+          
+      </form>
+  </section>
+</div>

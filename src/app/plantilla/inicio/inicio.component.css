@@ -1,0 +1,419 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: linear-gradient(to top, rgba(251, 194, 235, 0.486) 0%, hsla(218, 68%, 79%, 0.514) 100%), url(/src/assets/images/purinaperrosygatospuedenseramigos.webp);
+}
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+}
+.header{
+    height: 100vh;
+    /*background-image: linear-gradient(to top, rgba(251, 194, 235, 0.486) 0%, hsla(218, 68%, 79%, 0.514) 100%), url(/assets/images/purinaperrosygatospuedenseramigos.webp);*/
+    background-image: linear-gradient( rgba(251, 194, 235, 0.486) 0%, hsla(218, 68%, 79%, 0.514) 100%), url(/assets/images/purinaperrosygatospuedenseramigos.webp);
+    background-repeat: no-repeat;
+    /*background-position: center;*/
+    background-size: cover;
+   
+}
+
+.head{
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.spread{
+    transform: translateX(0);
+}
+.menu-navegacion a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.titulo{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.copy{
+    font-weight: 300;
+    font-size: 25px;
+}
+
+/* Services */
+
+.subtitulo{
+    color: #9f8ad0;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.contenedor-servicio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contenedor-servicio img{
+    width: 40%;
+}
+
+.checklist-servicio{
+    width: 45%;
+}
+
+.service{
+    margin-bottom: 20px;
+}
+
+.n-service{
+    margin-bottom: 7px;
+    color: #9f8ad0;
+}
+
+.number{
+    display: inline-block;
+    /* 02 */
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    font-weight: 700;
+}
+
+/* Tabla */
+
+.datagrid table { 
+    border-collapse: collapse; text-align: left; width: 100%; 
+} 
+    
+.datagrid {font: normal 12px/150% Arial, Helvetica, sans-serif; 
+    background: #fff; overflow: hidden; border: 1px solid #c673c9; 
+    -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; 
+}.datagrid table td, .datagrid table th { padding: 3px 10px; }
+
+.datagrid table thead th {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #c673c9), color-stop(1, hwb(308 48% 27%)) );
+    background:-moz-linear-gradient( center top, #c673c9 5%, #c673c9 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#652299', endColorstr='#4D1A75');
+    background-color:#c673c9; color:#FFFFFF; font-size: 15px; font-weight: bold; border-left: 1px solid #c673c9; 
+}
+ .datagrid table thead th:first-child { 
+    border: none; 
+}
+.datagrid table tbody td { 
+    color: #c673c9; border-left: 1px solid #E7BDFF;font-size: 12px;font-weight: normal; 
+}
+.datagrid table tbody .alt td {
+     background: #F4E3FF; color: #bd81c9; 
+}
+.datagrid table tbody td:first-child {
+     border-left: none; 
+}
+.datagrid table tbody tr:last-child td { 
+    border-bottom: none; 
+}
+.datagrid table tfoot td div { 
+    border-top: 1px solid #c673c9;background: #F4E3FF;
+}
+.datagrid table tfoot td {
+     padding: 0; font-size: 12px 
+} .datagrid table tfoot td div{ 
+    padding: 2px; 
+}.datagrid table tfoot td ul {
+     margin: 0; padding:0; list-style: none; text-align: right; 
+}.datagrid table tfoot  li { 
+    display: inline; 
+}
+.datagrid table tfoot li a { 
+    text-decoration: none; display: inline-block;  padding: 2px 8px; margin: 1px;
+    color: #FFFFFF;border: 1px solid #c673c9;-webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; 
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #c673c9), color-stop(1, #c673c9) );
+    background:-moz-linear-gradient( center top, #c673c9 5%, #c673c9 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#652299', endColorstr='#4D1A75');
+    background-color:#c673c9; }.datagrid table tfoot ul.active, .datagrid table tfoot ul a:hover
+    { text-decoration: none;border-color: #c673c9; color: #FFFFFF; background: none; background-color:#c673c9;}
+
+
+    .gallery{
+        background: #f2f2f2;
+    }
+    
+    .titulo{
+        color: #9f8ad0;
+        font-size: 40px;
+        text-align: center;
+        font-weight: 300;
+        margin-bottom: 30px;
+    }
+    
+    .galeria-port{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    
+    .imagen-port{
+        width: 24%;
+        margin-bottom: 10px;
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+        box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    }
+    
+    .imagen-port > img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+    
+    .hover-galeria{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        transform: scale(0);
+        background: rgba(48, 61, 78, 0.7);
+        transition: transform .5s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .hover-galeria img{
+        width: 50px;
+    }
+    
+    .hover-galeria p{
+        color: #fff;
+    }
+    
+    .imagen-port:hover .hover-galeria{
+        transform: scale(1);
+    }
+   
+.experts{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cont-expert{
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cont-expert img{
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+.n-expert{
+    width: 100%;
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: 400;
+}
+ 
+footer{
+    background: #9f8ad0;
+    padding-bottom: 0.1px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.contact-us{
+    width: 40%;
+    color: #fff;
+}
+
+.brand{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.brand+p{
+    font-weight: 500;
+}
+
+.social-media{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-media-icon{
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+
+.social-media-icon i{
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.line{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    height: 2px;
+    background: #fff;
+    margin-bottom: 60px;
+}
+
+.social-media-icon:hover{
+    background: #fff;
+    color:#764ba2;
+}
+
+inicio{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(251, 194, 235, 0.486) 0%, hsla(218, 68%, 79%, 0.514) 100%), url(/src/assets/images/purinaperrosygatospuedenseramigos.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+    
+}
+
+
+@media screen and (max-width: 800px){
+    .menu-navegacion{
+        width: 50vw;
+    }
+
+    .titulo{
+        font-size: 40px;
+    }
+
+    .contenedor-servicio img{
+        width: 80%;
+        margin-bottom: 40px;
+    }
+    
+    .checklist-servicio{
+        width: 80%;
+    }
+
+    .service{
+        margin-bottom: 30px;
+    }
+
+    .img-galeria{
+        width: 45%;
+    }
+    
+    .agregarImagen{
+        width: 80%;
+    }
+
+    
+    .cont-expert{
+        width: 80%;
+    }
+    
+    .footer-content{
+        justify-content: center;
+    }
+
+    .social-media{
+        width: 80%;
+        justify-content: space-evenly;
+    }
+
+    .social-media-icon{
+        margin-left: 0;
+    }
+
+    .contact-us{
+        text-align: center;
+        width: 80%;
+        margin-bottom: 40px;
+    }
+    
+}
+
+
+@media screen and (max-width: 500px){
+    .menu-navegacion{
+        width: 65vw;
+    }
+
+    .hamburguer{
+        top: 20px;
+        right: 20px;
+    }
+
+    .titulo{
+        font-size: 30px;
+    }
+
+    .subtitulo{
+        font-size: 30px;
+    }
+
+    .img-galeria{
+        width: 95%;
+    }
+    
+    .agregar-imagen{
+        width: 90%;
+    }
+
+    .social-media{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .social-media-icon{
+        margin-left: 0;
+    }
+
+    .contact-us{
+        text-align: center;
+        width: 95%;
+        margin-bottom: 40px;
+    }
+    
+}
+
