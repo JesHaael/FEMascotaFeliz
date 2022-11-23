@@ -28,10 +28,12 @@ export class SeguridadService {
     return this.datosUsuarioEnSesion.asObservable();
   }
   Identificar(usuario: string,contrasena: string): Observable<ModeloIdentificar>{
-  //  let url = `${this.url}/identificarUsuario`;
-  //  let obj = {usuario:usuario, contrasena:clave};
-  //  return this.http.post<ModeloIdentificar>(url, obj, {headers: new HttpHeaders({'Content-Type':'application/json'})});
-  alert(usuario)
+    let url = `${this.url}/identificarUsuario`;
+    let obj = {usuario:usuario, contrasena:contrasena};
+
+    return this.http.post<ModeloIdentificar>(url, obj, {headers: new HttpHeaders({'Content-Type':'application/json'})});
+    
+  /*alert(usuario)
   alert(contrasena)
     return this.http.post<ModeloIdentificar>(`${​​​​​​​​this.url}​​​​​​​​/identificarUsuario`,{​​​​​​​​
       usuario: usuario,
@@ -41,7 +43,7 @@ export class SeguridadService {
 
       }​​​​​​​​)
     }​​​​​​​​)
-
+*/
 }
   AlmacenarSesion(datos:ModeloIdentificar){
     datos.estaIdentificado = true;
