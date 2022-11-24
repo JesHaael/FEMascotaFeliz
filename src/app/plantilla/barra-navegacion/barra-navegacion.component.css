@@ -2,7 +2,12 @@
 
 .fix{
     position: fixed;top: 0%;
+    background :rgba(48, 169, 240, 0.86);
+    font-weight: 300;
+    font-size: 25px;
 }
+a {font-weight: 300;
+font-size: 25px;}
 
 .hamburguer{
     position: fixed;
@@ -52,6 +57,7 @@
     justify-content: center;
     text-align: center;
     color: #fff;
+    
 }
 .contenedor-servicio img{
     width: 40%;
@@ -63,6 +69,7 @@
     font-weight: 300;
     font-size: 25px;
 }
+
 /*.header{
     height: 100vh;
    
@@ -75,6 +82,7 @@
 .menu-navegacion a{
     color: #fff;
     text-decoration: none;
+   
 }
 @media screen and (max-width: 800px){
     .menu-navegacion{

@@ -1,0 +1,7 @@
+foot{
+    background :rgba(48, 169, 240, 0.86);
+}
+.fix{
+    position: fixed;top: 0%;
+    background :rgba(48, 169, 240, 0.86);
+}

@@ -1,13 +1,16 @@
+<div>
+
 <div class="logins" id="logins">
-  <section class="Login contenedor" id="login">
+  <section class="Login-contenedor" id="login">
       <h2 class="subtitulo">Log in</h2>
+      <p class="texto">Registro</p>
       
       <form [formGroup]="fgValidador" role="form" (ngSubmit)="IdentificarUsuario()">
-          <div class="form-group">
+          <div class="form-group fontawesome-user">
             <label for="email">Correo electrónico:</label>
             <input formControlName="usuario" type="email" class="form-control" id="email">
           </div>
-          <div class="form-group">
+          <div class="form-group fontawesome-envelope-alt">
             <label for="pwd">Contraseña:</label>
             <input formControlName="clave" type="password" class="form-control" id="pwd">
           </div>
@@ -19,3 +22,7 @@
       </form>
   </section>
 </div>
+<div>
+  <br><br><br>
+</div>
+  
