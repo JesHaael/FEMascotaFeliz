@@ -6,7 +6,7 @@
 }
 body{
     font-family: 'Open Sans', sans-serif;
-    background-image: linear-gradient(to top, rgba(251, 194, 235, 0.486) 0%, hsla(218, 68%, 79%, 0.514) 100%), url(/src/assets/images/purinaperrosygatospuedenseramigos.webp);
+    /*background-image: linear-gradient(to top, rgba(251, 194, 235, 0.486) 0%, hsla(218, 68%, 79%, 0.514) 100%), url(/src/assets/images/purinaperrosygatospuedenseramigos.webp);*/
 }
 .contenedor{
     width: 90%;
