@@ -2,9 +2,10 @@
 <table class="table responsive">
 <thead>
   <tr>
+    <th>Tipo</th>
     <th>Nombre</th>
     <th>Precio</th>
-    <th>Imagen</th>
+    <th>Descripcion</th>
     <th>Editar</th>
   </tr>
 </thead>
@@ -12,7 +13,7 @@
     <tr *ngFor="let p of listadoRegistros">
         <td>{{p.nombre}}</td>
         <td>{{p.precio}}</td>
-        <td>{{p.imagen}}</td>
+        <td>{{p.descripcion}}</td>
         <td> <a routerLink="/administracion/editar-producto/{{p.id}}" class="btn">Editar Producto</a></td>
     </tr>
 </tbody>

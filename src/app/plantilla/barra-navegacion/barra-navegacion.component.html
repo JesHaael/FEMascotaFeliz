@@ -33,7 +33,7 @@
       <li><a href="registro.html">Registro</a></li>-->
   
       <li *ngIf="seInicioSesion"><a routerLink="/administracion/buscar-persona">Personas</a></li>
-      <li *ngIf="seInicioSesion"><a routerLink="/administracion/listar-productos">Productos</a></li>
+      <li *ngIf="seInicioSesion"><a routerLink="/administracion/buscar-producto">Productos</a></li>
       <li *ngIf="seInicioSesion"><a routerLink="/seguridad/cambiar-clave">Cambiar Clave</a></li>
       <li *ngIf="seInicioSesion"><a routerLink="/seguridad/cerrarSesion">Cerrar Sesion</a></li>
       <li *ngIf="!seInicioSesion"><a routerLink="/seguridad/identificacion">Login</a></li>

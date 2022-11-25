@@ -32,7 +32,7 @@ const routes: Routes = [
     canActivate:[ValidadorSesionGuard]
   },
   {
-    path: 'listar-producto',
+    path: 'buscar-producto',
     component:BuscarProductoComponent,
     canActivate:[ValidadorSesionGuard]
   },
